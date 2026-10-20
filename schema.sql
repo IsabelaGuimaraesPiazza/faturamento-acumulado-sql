@@ -1,0 +1,11 @@
+CREATE TABLE VENDAS_LOJA (
+    id_venda INT PRIMARY KEY,
+    data_venda DATE,
+    categoria VARCHAR(50), 
+    valor_venda DECIMAL(10,2)
+);
+
+INSERT INTO VENDAS_LOJA VALUES (1, '2026-10-01', 'Eletrônicos', 1500.00); 
+INSERT INTO VENDAS_LOJA VALUES (2, '2026-10-01', 'Vestuário', 200.00);    
+INSERT INTO VENDAS_LOJA VALUES (3, '2026-10-02', 'Eletrônicos', 1000.00); 
+INSERT INTO VENDAS_LOJA VALUES (4, '2026-10-02', 'Vestuário', 300.00);    
